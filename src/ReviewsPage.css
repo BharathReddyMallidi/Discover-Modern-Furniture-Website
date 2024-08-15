@@ -1,0 +1,52 @@
+/* ReviewsPage.css */
+.reviews-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .back-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reviews-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .review-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  .review-item p {
+    margin: 5px 0;
+  }
+  
+  .rating {
+    display: inline-flex;
+    gap: 5px;
+    font-size: 20px;
+  }
+  
+  .star {
+    color: #ccc;
+  }
+  
+  .star.filled {
+    color: #f39c12;
+  }
+  
